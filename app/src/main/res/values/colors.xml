@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="space_grey">#696969</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="light_grey">#cacaca</color>
+    <color name="red">#ff0900</color>
+    <color name="yellow">#fff01c</color>
+    <color name="green">#b8fb01</color>
+    <color name="emerald">#00ffea</color>
+    <color name="blue">#007ffe</color>
+    <color name="sky">#88def1</color>
+    <color name="orange">#ff8c00</color>
+    <color name="brown">#8B4513</color>
+    <color name="light_brown">#cc783c</color>
+    <color name="morelight_brown">#de9f71</color>
+    <color name="crimson">#DC143C</color>
+    <color name="light_crimson">#f997a9</color>
+    <color name="light_pink">#ffc0cb</color>
+    <color name="morelight_pink">#ffdae1</color>
+    <color name="diary_background">#ffda83</color>
+</resources>

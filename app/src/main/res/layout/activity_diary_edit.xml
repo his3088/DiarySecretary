@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_diary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#EACBFF">
+
+        <Button
+            android:id="@+id/btn_diary_cancel"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:background="@drawable/go_out"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EACBFF"
+            android:text="일 기 장"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:textAlignment="center" />
+        <Button
+            android:id="@+id/btn_diary_delete"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/garbage"/>
+        <Button
+            android:id="@+id/btn_diary_save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/save"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editText_diaryEdit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:freezesText="true"
+        android:gravity="center"
+        android:hint="오늘을 기록하세요"
+        android:inputType="textNoSuggestions|textLongMessage|textMultiLine"
+        android:maxLines="50"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
